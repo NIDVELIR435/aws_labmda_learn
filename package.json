@@ -1,0 +1,12 @@
+{
+  "name": "lambda_learn",
+  "version": "1.0.0",
+  "description": "This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.",
+  "scripts": {
+    "build": "sam build",
+    "clear": "rm -rf .aws-sam/build/*; rm -rf .aws-sam/cache/*",
+    "start": "npm run clear; npm run build; sam local start-api"
+  },
+  "author": "Mudryi Yaroslav",
+  "license": "ISC"
+}
